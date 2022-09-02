@@ -1,0 +1,10 @@
+{
+    "name": "YT Watchlater",
+    "description": "Agrega los últimos vídeos de tus youtubers favoritos a Watchlater directamente desde la sección de Notificaciones en PC",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "js": ["js/content.js"],
+        "matches": ["https://www.youtube.com/*"]
+    }]
+}
